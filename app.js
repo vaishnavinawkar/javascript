@@ -63,15 +63,15 @@
 
  //logical operators
 
- const g=2
- const k=3
+//  const g=2
+//  const k=3
 
- const j=35
+//  const j=35
 
- console.log(j > g && j<k)
+//  console.log(j > g && j<k)
 
- console.log('g==k', g==k)
- console.log('g != k', g!=k)
+//  console.log('g==k', g==k)
+//  console.log('g != k', g!=k)
 
 //  console.log('Truth table for AND')
 //  console.log('')
@@ -88,3 +88,32 @@
 //  console.log('true || false', true||false)
 //  console.log('false || true', false||true)
 //  console.log('true || true', true||true)
+
+//Conditional statements
+ const a=0
+
+//  if(a % 2 == 0){
+//      console.log("Number is even")
+//  }
+//  else{
+//      console.log("NUmber is odd")
+//  }
+
+if(typeof a === 'number'){
+    if(a ===0){
+        console.log("Neither even nor odd")
+    }
+    else if(a% 2 == 0){
+        console.log("NUmber is even")
+    }
+    else {
+        console.log("Number is odd")
+    }
+}
+  else{
+    console.error("Not a number")
+}
+
+
+
+ 
