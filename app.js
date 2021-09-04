@@ -120,9 +120,30 @@
 
 //  const element = document.getElementsByTagName('h2')
 
-const element=document.querySelector(".heading")
+const element=document.querySelector("#selectme")
+// element.innerHTML="this is from Js"
 
-console.log(element)
+
+// element.style.color="cyan"
+// element.style.fontsize="40px"
+// element.style = 'display:none'
+
+// console.log(element.classList)
+// element.classList.add('five')
+// console.log(element.classList)
+// element.classList.remove('one')
+// console.log(element.classList)
+
+
+// const body =document.querySelector('body')
+
+// console.log(body)
+
+// console.log(body.classList.toggle('dark'))
+
+const value= element.classList.contains('three')
+
+console.log(value)
 
 
 
