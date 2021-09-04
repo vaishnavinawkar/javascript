@@ -120,7 +120,7 @@
 
 //  const element = document.getElementsByTagName('h2')
 
-const element=document.querySelector("#selectme")
+// const element=document.querySelector("#selectme")
 // element.innerHTML="this is from Js"
 
 
@@ -141,10 +141,25 @@ const element=document.querySelector("#selectme")
 
 // console.log(body.classList.toggle('dark'))
 
-const value= element.classList.contains('three')
+// const value= element.classList.contains('three')
 
-console.log(value)
+// console.log(value)
 
+
+const button =document.querySelector('button')
+const element =document.querySelector('#selectme')
+
+// console.log(button,element)
+
+
+
+button.addEventListener('click',()=>{
+    // console.log('you clicked me')
+    // element.style="background:aqua"
+
+    element.classList.toggle('dark')
+    
+})
 
 
 
