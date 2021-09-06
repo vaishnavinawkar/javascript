@@ -27,5 +27,20 @@ add(2,8)
 function Addition(a=0,b=0){
     return a + b
 }
-const result = Addition()
-comsole.log(result)
+const result = Addition(12,99)
+console.log(result)
+
+//ECMA SCRIPT 
+
+const sub=function (a=0,b=0){
+    return a - b
+}
+
+console.log(sub(10,5))
+
+//by using arrow function delclartion
+const mul= (a=0,b=0)=> {
+    return a * b
+}
+
+console.log(mul(10,5))
