@@ -1,19 +1,20 @@
-// let i 
+const balls= document.getElementsByClassName('ball')
+const body=document.querySelector('body')
 
-// for (i=1; i< 10; i++) {
-//     console.log('iteration '+ i)
+const arr =[1,2,3,4,5]
+
+// const added=arr.unshift(6)
+// arr.splice(2,1)
+// arr.shift() 
+// arr.shift()
+
+// console.log(arr)
+
+// for(var i=0; i<arr.length; i++){
+//     console.log(arr[i])
 // }
-    
-// const temp = ()=> {
-//     var dontknow ="dontknow"
-// }
 
-// console.log(dontknow)
-
-let iteration= 0
-
-while(iteration < 10){
-    console.log(iteration)
-    iteration ++
-}
-
+arr.forEach((element)=> {
+    console.log('iteration')
+    console.log(element)
+})
